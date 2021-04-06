@@ -25,7 +25,6 @@
     line-height: 60px;
     letter-spacing: 0em;
     background-color: #02160b;
-    
   }
   
   .header__logo {
@@ -63,9 +62,9 @@
     background-color: Transparent;
     color: white;      
   }
+  
   a {
     color: rgba(247, 247, 247, 1);
-  
   }
   
   .menu__items:hover {
@@ -75,6 +74,7 @@
   .menu__links1:hover {
     transform: translateY(-5px);
   }
+
   .menu__links1 {
     text-decoration: none;
   }
