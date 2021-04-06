@@ -4,6 +4,7 @@
     list-style-type: none ;
     box-sizing: border-box;
   }
+
   .box {
     display:inline-block;
     width: 100px;
@@ -11,16 +12,19 @@
     background:white;
     color: black;
   }
+
   .block {
     width: 80%;
     margin: auto;
   }
+
   #block_1 {
     height: 475px; 
     border: black;
     border-style: dotted;
     background:white;
   }
+
   #block_2 {
     margin-top: 25px;
     height: 300px; 
@@ -28,6 +32,7 @@
     border-style: dotted;
     background:white;
   }
+
   #block_3{
     height: 300px;
     margin-top: 25px;
@@ -35,6 +40,7 @@
     border-style: dotted;
     background:white;
   }
+
   #block_4 {
     position: relative;
     height: 700px;
@@ -44,6 +50,7 @@
     background:white;
     margin-bottom: 25px;
   }
+
   #block_5 {
     position: relative;
     height: 700px;;
@@ -52,6 +59,7 @@
     background:green;
     margin-bottom: 25px;
   }
+
   #one {
     position: relative;
     top: 50px;
@@ -59,6 +67,7 @@
     border: red;
     border-style: solid;
   }
+
   #two {
     position: relative;
     top: 175px;
@@ -66,6 +75,7 @@
     border: blue;
     border-style: solid;
   }
+
   #three {
   position: relative;
   top: 300px;
@@ -73,30 +83,35 @@
   border: green;
   border-style: solid;
   }
+
   #four {
     position: relative;
     top: 50px;
     left: 100px;
     background-color:yellow ;
   }
+
   #five {
     position: relative;
     top: 100px;
     left: 50px;
     background-color: wheat;
   }
+
   #six {
     position: relative;
     top: 150px;
     left: 0px;
     background-color:yellowgreen ;
   }
+
   #seven {
     position: relative;
     top: 50px;
     left: 100px;
     background-color:yellow ;
   }
+
   #eight {
     z-index: 1;
     position: relative;
@@ -104,12 +119,14 @@
     left: 50px;
     background-color: wheat;
   }
+
   #nine {
     position: relative;
     top: 150px;
     left: 0px;
     background-color:yellowgreen ;
   }
+
   #ten {
     position:absolute;
     margin: auto;
@@ -121,6 +138,7 @@
     height: 90%;
     background-color: indianred;
   }
+
   #eleven {
     position: absolute;
     background-color: white;
@@ -129,6 +147,7 @@
     width: 150px;
     height: 150px;
   }
+
   #twelve {
     position: absolute;
     background-color: white;
@@ -137,6 +156,7 @@
     width: 150px;
     height: 150px;
   }
+  
   #scroll {
     position:absolute;
     width: 100%;
