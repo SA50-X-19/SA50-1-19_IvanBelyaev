@@ -3,19 +3,18 @@
   margin: 0;
   list-style-type: none;
   box-sizing: border-box;
+  font-family: Open Sans;
 }
 
 .wrapper {
-  z-index: -1;
-  width: 100vw;
   display: flex;
+  width: 100vw;
   justify-content: center;
-  padding-top: 79px;
   background-color: #02160b;
 }
 
 .background {
-  background-image: url(Rectangle.jpg);
+  background-image: url(lisa.jpg);
   width: 100%;
   max-width: 1440px;
   height: 780px;
@@ -23,8 +22,9 @@
 
 .header {
   display: flex;
+  width: 100%;
+  height: 60px;
   justify-content: space-around;
-  font-family: Roboto;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +41,7 @@
 }
 
 .menu__list{
-  width:481px;
+  width: 481px;
   display: flex;
   justify-content: space-around;
 }
@@ -73,6 +73,7 @@ button {
 
 a {
   color: rgba(247, 247, 247, 1);
+
 }
 
 .menu__items:hover {
@@ -95,12 +96,14 @@ a {
   justify-content: flex-end;
 }
 
+
 .survival-text {
   width: 275px;
   height: 340px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;  
+  flex-direction: column;
+  
 }
 
 .title {
@@ -109,6 +112,7 @@ a {
   height: 72px;
   color: rgba(205, 99, 38, 1);
   display: flex;
+
 }
 
 .h1 {
@@ -120,6 +124,7 @@ a {
   letter-spacing: 2px;
   color: rgba(205, 99, 38, 1);
 }
+
 
 .regular {
   display: flex;
@@ -133,6 +138,7 @@ a {
   color:rgba(247, 247, 247, 1);
   width: 274px;
   height: 108px;
+
 }
 
 .Donate {
@@ -158,6 +164,7 @@ a {
   color:white;
   -webkit-transition: 500ms ease;
   text-decoration: none;
+
 }
 
 .Donate1:hover {
@@ -171,6 +178,7 @@ a {
   width: 100vw;
   display: flex;
   justify-content: center;
+
 }
 
 .elements {
@@ -183,7 +191,6 @@ a {
   justify-content: space-between;  
   align-items: center;
 }
-
 .top {
   height: 270px;;
   display: flex;
@@ -244,7 +251,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-image: url(Deer.jpg);
+  background-image: url(deer.jpg);
   height: 360px;
   width: 300px;
 }
@@ -264,7 +271,7 @@ a {
   align-items: flex-end;
   height: 360px;
   width: 300px;
-  background-image: url(Bird.jpg);
+  background-image: url(bird.jpg);
 }
 
 h4 {
@@ -303,42 +310,164 @@ h3 {
   text-align: center;
 }
 
+.left_strelka:hover {
+  transition: 500ms;
+  transform: scale(1.2,1.2);
+}
+
+.left_strelka {
+  -webkit-transition: 500ms ease;
+}
+
+.right_strelka:hover {
+  transition: 500ms;
+  transform: scale(1.2,1.2);
+}
+
+.right_strelka {
+  -webkit-transition: 500ms ease;
+}
+
 .email {
   height: 60px;
-  width: 650px;
+  width: 660px;
   font-family: Roboto;
   font-size: 23px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
+  display: flex;
 }
 
 .send_button {
   background: rgba(205, 99, 38, 1);
   height: 60px;
   width: 120px;
-  border-radius: 5px;
+  border-radius: 0px 10px 10px 0px;
   color:white;
 }
 
 input {
   height: 60px;
-  width: 510px;
+  width: 540px;
   border-color: rgba(102, 102, 102, 1); 
   background: rgba(204, 204, 204, 1);  
 }
 
 .text_down {
-  height: 41px;
-  width: 526px;
+  height: 200px;
+  width: 512px;
 }
 
 .down {
-  height: 30%;
+  height: 150px;
+  width: 660px;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
   align-items: center;
+}
+
+.wildlife-footer {
+  z-index: -1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #02160b;
+}
+
+.picture__footer {
+  width: 1440px;
+  height: 360px;
+  background-image: url(Footer.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.left__footer {
+  display: flex;
+  width: 480px;
+  justify-content: center;
+}
+
+.logo__footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 210px;
+  justify-content: space-between;
+  -webkit-transition: 400ms ease;
+}
+
+.menu__logo__footer {
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color:#F7F7F7;
+  height: 60px;
+  width: 155px;
+  text-decoration: none;
+}
+
+.middle__footer {
+  width: 480px;
+  display: flex;
+  justify-content: center;
+}
+
+.ul__footer {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li__footer {
+  display: inline;
+  color: #F7F7F7;
+}
+
+.right__footer {
+  display: flex;
+  width: 480px;
+  justify-content: center;
+
+}
+
+.menu__links__footer {
+  text-decoration: none ;
+  font-family: Open Sans;
+  font-size: 26px;
+  font-style: normal;
+  -webkit-transition: 200ms ease;
+} 
+
+.ul__footer__right {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__links__footer:hover {
+  transition: 200ms;
+  transform:translateY(-5px)
+}
+
+.menu__links__footer__right:hover {
+  transform: 500ms;
+  transform: rotate(720deg)
+}
+
+.logo_foot:hover {
+  transition: 600ms;
+  transform:rotate(720deg)
+}
+
+.menu__logo__footer:hover {
+  transition: 200ms;
+  transform:translateY(-5px)
+}
+
+.li__footer__right:hover {
+  transition: 600ms;
+  transform:rotate(720deg)
 }
