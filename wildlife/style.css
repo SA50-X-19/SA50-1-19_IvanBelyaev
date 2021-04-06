@@ -3,7 +3,6 @@
   margin: 0;
   list-style-type: none;
   box-sizing: border-box;
-
 }
 
 .wrapper {
@@ -36,7 +35,6 @@
 .header__logo {
   width: 240px;
   height: 60px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -71,7 +69,6 @@ button {
 
 a {
   color: rgba(247, 247, 247, 1);
-
 }
 
 .menu__items:hover {
@@ -81,9 +78,11 @@ a {
 .menu__links1:hover {
   transform: translateY(-5px);
 }
+
 .menu__links1 {
   text-decoration: none;
 }
+
 .survival {
   display: flex;
   align-items: flex-end;
@@ -117,7 +116,6 @@ a {
   letter-spacing: 2px;
   color: rgba(205, 99, 38, 1);
 }
-
 
 .regular {
   display: flex;
