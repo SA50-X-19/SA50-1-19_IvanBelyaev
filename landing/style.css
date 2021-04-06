@@ -10,10 +10,9 @@
     display: flex;
     justify-content: center;
     padding-top: 79px;
-    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%); 
-   
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
   }
-  
+
   .header {
     width: 100%;
     max-width: 1100px;
@@ -42,7 +41,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
   }
 
   .header__right {
@@ -58,7 +56,6 @@
     width: 347px;
     height: 36px;
     align-items: center;
-  
   }
   
   .sign{
@@ -100,12 +97,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
   }
     
   .color__white {
    color: rgba(181, 181, 181, 1);
-  
   }
   
   .link__in {
@@ -131,5 +126,4 @@
     height: 6px;
     z-index: 2;
     border-radius:  15%;
-
   }
